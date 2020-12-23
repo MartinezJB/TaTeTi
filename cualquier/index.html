@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juega al Tateti!</title>
+    <meta name="author" content="Joaquin Martinez">
+    <meta name="keywords" content="TaTeTi TicTacToe">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>Ta Te Ti</h1>
+        <h2 id="subtitulo">Suerte para ti</h2>
+    </header>
+    <br>
+    <div id="mesa">
+        <table id="teclado">
+            <tr>
+                <td id="esqSupIzq" onclick="colocar('esqSupIzq')"></td>
+                <td id="medioSup" onclick="colocar('medioSup')"></td>
+                <td id="esqSupDer" onclick="colocar('esqSupDer')"></td>
+            </tr>
+            <tr>
+                <td id="medioIzq" onclick="colocar('medioIzq')"></td>
+                <td id="medio" onclick="colocar('medio')"></td>
+                <td id="medioDer" onclick="colocar('medioDer')"></td>
+            </tr>
+            <tr>
+                <td id="esqInfIzq" onclick="colocar('esqInfIzq')"></td>
+                <td id="medioInf" onclick="colocar('medioInf')"></td>
+                <td id="esqInfDer" onclick="colocar('esqInfDer')"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
